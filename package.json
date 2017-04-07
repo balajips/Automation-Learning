@@ -1,0 +1,30 @@
+{
+  "name": "automation_testing",
+  "version": "1.0.0",
+  "description": "This is to learn automation testing using typescript.",
+  "main": "index.js",
+  "dependencies": {
+    "protractor": "^5.1.1",
+    "typescript": "^2.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "tsc": "tsc",
+    "pretest": "npm run tsc",
+    "test":  "protactor tmp/conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balajips/Automation-Learning.git"
+  },
+  "keywords": [
+    "automatio",
+    "typescript"
+  ],
+  "author": "Balaji Polakampalli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/balajips/Automation-Learning/issues"
+  },
+  "homepage": "https://github.com/balajips/Automation-Learning#readme"
+}
