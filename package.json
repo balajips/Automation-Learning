@@ -7,11 +7,14 @@
     "protractor": "^5.1.1",
     "typescript": "^2.2.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/jasmine": "^2.5.47",
+    "@types/node": "7.0.12"
+  },
   "scripts": {
     "tsc": "tsc",
     "pretest": "npm run tsc",
-    "test":  "protactor tmp/conf.js"
+    "test":  "protractor conf.js"
   },
   "repository": {
     "type": "git",
