@@ -6,8 +6,8 @@ describe ('login to tiwar', () => {
 
     beforeAll(() => {
         browser.ignoreSynchronization = true;
-        userName = 'sample';
-        password = 'sample';
+        userName = browser.params.userName;
+        password = browser.params.password;
     });
 
     beforeEach(() => {
