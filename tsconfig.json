@@ -8,10 +8,16 @@
         "outDir": "./dist/src",
         "lib": [
             "es2015", "dom"
-        ]
+        ],
+        "baseUrl": ".",
+        "paths": {
+            "common/*": [
+                "./src/common/*"
+            ]
+        }
     },
     "include": [
-        "./src/*"
+        "./src/*", "./src/common/*", "./src/elements/*"
     ],
     "exclude": [
         "node_modules/**"
